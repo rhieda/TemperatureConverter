@@ -22,6 +22,6 @@ class TemperatureConverterTests: XCTestCase {
     
     func testContentViewShouldCalculateCorrectlyIfInoutCelsiusOutputFahrenheit() {
         var output = sut.calculate(inputType: .Celsius, outputType: .Fahrenheit)
-        XCTAssertEqual(output, 31)
+        XCTAssertEqual(output, 32)
     }
 }
